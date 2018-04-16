@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_view_account_payment_tree" model="AccountPayment">
@@ -247,4 +247,4 @@
         <menuitem id="account_menu_action_account_payments_payable" sequence="20" parent="account_menu_finance_payables"
                   action="account_action_account_payments_payable" groups="group_account_user"/>
     </data>
-</hexya>
+</doxa>

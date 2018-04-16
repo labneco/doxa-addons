@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_cash_box_in_form" model="CashBoxIn">
@@ -36,4 +36,4 @@
                 src_model="AccountBankStatement" view_mode="form" target="new"/>
 
     </data>
-</hexya>
+</doxa>

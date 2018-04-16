@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
  <!--       <view id="sale_view_sales_config" model="SaleConfigSettings">
             <div id="main" position="inside">
@@ -41,7 +41,7 @@
                     <div>
                         <field name="module_sale_contract" class="oe_inline" widget="upgrade_boolean"/>
                         <label for="module_sale_contract"/>
-                        <a href="https://www.hexya.io/page/subscriptions" target="_blank"> More Info</a>
+                        <a href="https://www.doxa.io/page/subscriptions" target="_blank"> More Info</a>
                     </div>
                 </group>
                 <group string="Customers" name="customers">
@@ -55,4 +55,4 @@
             </form>
         </view>
 -->    </data>
-</hexya>
+</doxa>

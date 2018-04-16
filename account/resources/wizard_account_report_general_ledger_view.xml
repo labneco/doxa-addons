@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_account_report_general_ledger_view" model="AccountReportGeneralLedger"
@@ -20,4 +20,4 @@
                   groups="group_account_manager,group_account_user"/>
 
     </data>
-</hexya>
+</doxa>

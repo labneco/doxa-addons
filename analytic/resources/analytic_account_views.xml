@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="analytic_account_analytic_tag_tree_view" model="AccountAnalyticTag">
@@ -44,7 +44,7 @@
                     No activity yet on this account.
                 </p>
                 <p>
-                    In Hexya, sale orders and projects are implemented using
+                    In Doxa, sale orders and projects are implemented using
                     analytic accounts. You can track costs and revenues to analyse
                     your margins easily.
                 </p>
@@ -202,7 +202,7 @@
                     No activity yet.
                 </p>
                 <p>
-                    In Hexya, sale orders and projects are implemented using
+                    In Doxa, sale orders and projects are implemented using
                     analytic accounts. You can track costs and revenues to analyse
                     your margins easily.
                 </p>
@@ -220,4 +220,4 @@
         </action>
 
     </data>
-</hexya>
+</doxa>

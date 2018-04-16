@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_view_account_invoice_refund" model="AccountInvoiceRefund">
@@ -51,4 +51,4 @@
                 model="AccountInvoiceRefund" view_mode="tree,form" view_id="account_view_account_invoice_refund"/>
 
     </data>
-</hexya>
+</doxa>

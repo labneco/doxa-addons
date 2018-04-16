@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
         <view id="sale_view_sale_advance_payment_inv" model="SaleAdvancePaymentInv">
             <form string="Invoice Sales Order">
@@ -41,4 +41,4 @@
         <action id="sale_action_view_sale_advance_payment_inv" type="ir.actions.act_window" name="Invoice Order"
                 model="SaleAdvancePaymentInv" view_mode="form" target="new"/>
     </data>
-</hexya>
+</doxa>

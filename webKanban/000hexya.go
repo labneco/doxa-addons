@@ -4,9 +4,9 @@
 package webKanban
 
 import (
-	_ "github.com/hexya-erp/hexya-base/web"
-	"github.com/hexya-erp/hexya-base/web/controllers"
-	"github.com/hexya-erp/hexya/hexya/server"
+	_ "github.com/labneco/doxa-ui/web"
+	"github.com/labneco/doxa-ui/web/controllers"
+	"github.com/labneco/doxa/doxa/server"
 )
 
 const MODULE_NAME = "webKanban"

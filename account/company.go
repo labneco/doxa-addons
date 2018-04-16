@@ -1,11 +1,11 @@
 package account
 
 import (
-	"github.com/hexya-erp/hexya/hexya/models"
-	"github.com/hexya-erp/hexya/hexya/models/types"
-	"github.com/hexya-erp/hexya/hexya/models/types/dates"
-	"github.com/hexya-erp/hexya/pool/h"
-	"github.com/hexya-erp/hexya/pool/q"
+	"github.com/labneco/doxa/doxa/models"
+	"github.com/labneco/doxa/doxa/models/types"
+	"github.com/labneco/doxa/doxa/models/types/dates"
+	"github.com/labneco/doxa/pool/h"
+	"github.com/labneco/doxa/pool/q"
 )
 
 func init() {
@@ -36,7 +36,7 @@ Use it for fiscal year locking for example.`},
 			RelationModel: h.AccountAccount(), Filter: q.AccountAccount().Reconcile().Equals(true).
 					And().Deprecated().Equals(false).
 					And().UserTypeFilteredOn(
-				q.AccountAccountType().HexyaExternalID().Equals("account.data_account_type_current_assets")),
+				q.AccountAccountType().DoxaExternalID().Equals("account.data_account_type_current_assets")),
 			Help: "Intermediary account used when moving money from a liquidity account to another"},
 		"ExpectsChartOfAccounts": models.BooleanField{String: "Expects a Chart of Accounts",
 			Default: models.DefaultValue(true)},

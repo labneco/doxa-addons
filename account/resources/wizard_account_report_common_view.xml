@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_account_common_report_view" model="AccountCommonReport">
@@ -25,4 +25,4 @@
                 model="AccountCommonReport" view_mode="form" view_id="account_account_common_report_view"/>
 
     </data>
-</hexya>
+</doxa>

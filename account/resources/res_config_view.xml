@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 <!--
         <action id="account_open_account_charts_modules" type="ir.actions.act_window" name="Chart Templates" model="IrModuleModule" view_mode="kanban,tree,form" search_view_id="base_view_module_filter"/>
@@ -88,7 +88,7 @@
                         <div>
                             <field name="module_account_reports" class="oe_inline" widget="upgrade_boolean"/>
                             <label for="module_account_reports"/>
-                            <a href="https://www.hexya.io/page/accounting" target="_blank"> More Info </a>
+                            <a href="https://www.doxa.io/page/accounting" target="_blank"> More Info </a>
                         </div>
                         <div>
                             <field name="group_analytic_accounting" class="oe_inline"/>
@@ -122,27 +122,27 @@
                         <div>
                             <field name="module_account_yodlee" class="oe_inline" widget="upgrade_boolean"/>
                             <label for="module_account_yodlee"/>
-                            <a href="https://www.hexya.io/page/accounting-features"> View supported banks</a>
+                            <a href="https://www.doxa.io/page/accounting-features"> View supported banks</a>
                         </div>
                         <div>
                             <field name="module_account_plaid" class="oe_inline" widget="upgrade_boolean"/>
                             <label for="module_account_plaid"/>
-                            <a href="https://www.hexya.io/page/accounting-features" target="_blank"> More Info</a>
+                            <a href="https://www.doxa.io/page/accounting-features" target="_blank"> More Info</a>
                         </div>
                         <div>
                             <field name="module_account_bank_statement_import_qif" class="oe_inline" widget="upgrade_boolean"/>
                             <label for="module_account_bank_statement_import_qif"/>
-                            <a href="https://www.hexya.io/page/accounting-features" target="_blank"> More Info</a>
+                            <a href="https://www.doxa.io/page/accounting-features" target="_blank"> More Info</a>
                         </div>
                         <div>
                             <field name="module_account_bank_statement_import_ofx" class="oe_inline" widget="upgrade_boolean"/>
                             <label for="module_account_bank_statement_import_ofx"/>
-                            <a href="https://www.hexya.io/page/accounting-features" target="_blank"> More Info</a>
+                            <a href="https://www.doxa.io/page/accounting-features" target="_blank"> More Info</a>
                         </div>
                         <div>
                             <field name="module_account_bank_statement_import_csv" class="oe_inline" widget="upgrade_boolean"/>
                             <label for="module_account_bank_statement_import_csv"/>
-                            <a href="https://www.hexya.io/page/accounting-features" target="_blank"> More Info</a>
+                            <a href="https://www.doxa.io/page/accounting-features" target="_blank"> More Info</a>
                         </div>
                     </div>
                     <label for="id" string="Automate Payments"/>
@@ -150,12 +150,12 @@
                         <div>
                             <field name="module_account_sepa" class="oe_inline" widget="upgrade_boolean"/>
                             <label for="module_account_sepa"/>
-                            <a href="https://www.hexya.io/page/accounting-features" target="_blank"> More Info</a>
+                            <a href="https://www.doxa.io/page/accounting-features" target="_blank"> More Info</a>
                         </div>
                         <div>
                             <field name="module_l10n_us_check_printing" class="oe_inline" widget="upgrade_boolean"/>
                             <label for="module_l10n_us_check_printing"/>
-                            <a href="https://www.hexya.io/page/accounting-features" target="_blank"> More Info</a>
+                            <a href="https://www.doxa.io/page/accounting-features" target="_blank"> More Info</a>
                         </div>
                     </div>
                     <label for="id" string="Configuration"/>
@@ -194,12 +194,12 @@
                         <div>
                             <field name="module_account_reports_followup" class="oe_inline" widget="upgrade_boolean"/>
                             <label for="module_account_reports_followup"/>
-                            <a href="https://www.hexya.io/page/accounting-features" target="_blank"> More Info</a>
+                            <a href="https://www.doxa.io/page/accounting-features" target="_blank"> More Info</a>
                         </div>
                         <div>
                             <field name="module_account_batch_deposit" widget="upgrade_boolean"/>
                             <label for="module_account_batch_deposit"/>
-                            <a href="https://www.hexya.io/page/accounting-features" target="_blank"> More Info</a>
+                            <a href="https://www.doxa.io/page/accounting-features" target="_blank"> More Info</a>
                         </div>
                     </div>
                     <field name="group_warning_account" widget="radio"/>
@@ -250,4 +250,4 @@
         <menuitem id="account_menu_account_config" name="Settings" sequence="0" parent="account_menu_finance_configuration" action="account_action_account_config" groups="base.group_system"/>
 -->
     </data>
-</hexya>
+</doxa>

@@ -5,11 +5,11 @@ package account
 
 import (
 	// Import dependencies
-	_ "github.com/hexya-erp/hexya-addons/analytic"
-	"github.com/hexya-erp/hexya-base/base"
-	"github.com/hexya-erp/hexya-base/web/controllers"
-	"github.com/hexya-erp/hexya/hexya/models/security"
-	"github.com/hexya-erp/hexya/hexya/server"
+	_ "github.com/labneco/doxa-addons/analytic"
+	"github.com/labneco/doxa-ui/base"
+	"github.com/labneco/doxa-ui/web/controllers"
+	"github.com/labneco/doxa/doxa/models/security"
+	"github.com/labneco/doxa/doxa/server"
 )
 
 const MODULE_NAME string = "account"

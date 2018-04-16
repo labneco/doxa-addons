@@ -4,12 +4,12 @@
 package sale
 
 import (
-	_ "github.com/hexya-erp/hexya-addons/account"
-	_ "github.com/hexya-erp/hexya-addons/procurement"
-	_ "github.com/hexya-erp/hexya-addons/saleTeams"
-	"github.com/hexya-erp/hexya-base/web/controllers"
-	"github.com/hexya-erp/hexya/hexya/models/security"
-	"github.com/hexya-erp/hexya/hexya/server"
+	_ "github.com/labneco/doxa-addons/account"
+	_ "github.com/labneco/doxa-addons/procurement"
+	_ "github.com/labneco/doxa-addons/saleTeams"
+	"github.com/labneco/doxa-ui/web/controllers"
+	"github.com/labneco/doxa/doxa/models/security"
+	"github.com/labneco/doxa/doxa/server"
 )
 
 const MODULE_NAME = "sale"

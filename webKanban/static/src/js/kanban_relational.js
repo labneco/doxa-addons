@@ -1,4 +1,4 @@
-hexya.define('web_kanban.Many2ManyKanbanView', function (require) {
+doxa.define('web_kanban.Many2ManyKanbanView', function (require) {
 "use strict";
 
 var common = require('web.form_common');

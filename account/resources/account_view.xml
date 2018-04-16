@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_view_account_form" model="AccountAccount">
@@ -557,7 +557,7 @@
                     should receive this periodicaly from your bank.
                 </p>
                 <p>
-                    Hexya allows you to reconcile a statement line directly with
+                    Doxa allows you to reconcile a statement line directly with
                     the related sale or puchase invoices.
                 </p>
             </help>
@@ -612,7 +612,7 @@
                     A bank statement line is a financial transaction on a bank account.
                 </p>
                 <p>
-                    Hexya allows you to reconcile a statement line directly with
+                    Doxa allows you to reconcile a statement line directly with
                     the related sale or puchase invoice(s).
                 </p>
             </help>
@@ -1204,7 +1204,7 @@
                     which is either a debit or a credit transaction.
                 </p>
                 <p>
-                    Hexya automatically creates one journal entry per accounting
+                    Doxa automatically creates one journal entry per accounting
                     document: invoice, refund, vendor payment, bank statements,
                     etc. So, you should record journal entries manually only/mainly
                     for miscellaneous operations.
@@ -1774,4 +1774,4 @@
                   sequence="25" parent="account_menu_finance_entries" action="account_action_manual_reconciliation"/>
 
     </data>
-</hexya>
+</doxa>

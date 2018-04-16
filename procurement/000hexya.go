@@ -4,9 +4,9 @@
 package procurement
 
 import (
-	"github.com/hexya-erp/hexya/hexya/server"
+	"github.com/labneco/doxa/doxa/server"
 	// Procurement dependencies
-	_ "github.com/hexya-erp/hexya-addons/product"
+	_ "github.com/labneco/doxa-addons/product"
 )
 
 const MODULE_NAME string = "procurement"

@@ -4,12 +4,12 @@
 package saleTeams
 
 import (
-	_ "github.com/hexya-erp/hexya-addons/webKanban"
-	"github.com/hexya-erp/hexya-base/base"
-	"github.com/hexya-erp/hexya-base/web/controllers"
+	_ "github.com/labneco/doxa-addons/webKanban"
+	"github.com/labneco/doxa-ui/base"
+	"github.com/labneco/doxa-ui/web/controllers"
 
-	"github.com/hexya-erp/hexya/hexya/models/security"
-	"github.com/hexya-erp/hexya/hexya/server"
+	"github.com/labneco/doxa/doxa/models/security"
+	"github.com/labneco/doxa/doxa/server"
 )
 
 const MODULE_NAME = "saleTeams"

@@ -4,8 +4,8 @@
 package procurement
 
 import (
-	"github.com/hexya-erp/hexya-base/base"
-	"github.com/hexya-erp/hexya/pool/h"
+	"github.com/labneco/doxa-ui/base"
+	"github.com/labneco/doxa/pool/h"
 )
 
 func init() {

@@ -1,4 +1,4 @@
-hexya.define('account.reconciliation', function (require) {
+doxa.define('account.reconciliation', function (require) {
 "use strict";
 
 var ActionManager = require('web.ActionManager');
@@ -1185,7 +1185,7 @@ var bankStatementReconciliation = abstractReconciliation.extend({
                     total_lines: self.num_already_reconciled_lines+self.lines.length
                 }));
                 self.$el.find('.js_automatic_reconciliation').click(function() {
-                    // Let hexya try to reconcile entries for the user
+                    // Let doxa try to reconcile entries for the user
                     self.model_bank_statement_line
                         .call("reconciliation_widget_auto_reconcile", [self.lines || undefined, self.num_already_reconciled_lines])
                         .then(function(data){ self.serverPreprocessResultHandler(data); })

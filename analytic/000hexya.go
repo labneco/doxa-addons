@@ -5,9 +5,9 @@ package analytic
 
 import (
 	// Import dependencies
-	_ "github.com/hexya-erp/hexya-addons/product"
-	"github.com/hexya-erp/hexya/hexya/models/security"
-	"github.com/hexya-erp/hexya/hexya/server"
+	_ "github.com/labneco/doxa-addons/product"
+	"github.com/labneco/doxa/doxa/models/security"
+	"github.com/labneco/doxa/doxa/server"
 )
 
 const MODULE_NAME string = "analytic"

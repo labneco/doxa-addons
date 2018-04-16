@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_view_invoice_line_calendar" model="AccountInvoice">
@@ -599,7 +599,7 @@
                     Click to create a customer invoice.
                 </p>
                 <p>
-                    Hexya&apos;s electronic invoicing allows to ease and fasten the
+                    Doxa&apos;s electronic invoicing allows to ease and fasten the
                     collection of customer payments. Your customer receives the
                     invoice by email and he can pay online and/or import it
                     in his own system.
@@ -639,4 +639,4 @@
                   action="account_action_invoice_tree2"/>
 
     </data>
-</hexya>
+</doxa>

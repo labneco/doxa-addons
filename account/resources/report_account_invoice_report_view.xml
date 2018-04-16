@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_view_account_invoice_report_pivot" model="AccountInvoiceReport">
@@ -77,4 +77,4 @@
                   parent="account_account_reports_business_intelligence_menu"
                   action="account_action_account_invoice_report_all"/>
     </data>
-</hexya>
+</doxa>

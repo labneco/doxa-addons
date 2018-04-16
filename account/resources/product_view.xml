@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view inherit_id="product_product_template_form_view">
@@ -31,4 +31,4 @@
         </view>
 
     </data>
-</hexya>
+</doxa>

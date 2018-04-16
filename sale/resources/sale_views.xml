@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="sale_view_sale_order_calendar" model="SaleOrder">
@@ -696,4 +696,4 @@
                   action="sale_action_quotations"/>
 
     </data>
-</hexya>
+</doxa>

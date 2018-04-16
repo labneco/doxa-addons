@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="sale_teams_crm_team_salesteams_view_kanban" model="CRMTeam">
@@ -64,4 +64,4 @@
         </view>
 
     </data>
-</hexya>
+</doxa>

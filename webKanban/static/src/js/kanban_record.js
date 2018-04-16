@@ -1,4 +1,4 @@
-hexya.define('web_kanban.Record', function (require) {
+doxa.define('web_kanban.Record', function (require) {
 "use strict";
 
 var core = require('web.core');

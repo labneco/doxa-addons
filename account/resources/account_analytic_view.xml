@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view inherit_id="analytic_view_account_analytic_line_form">
@@ -60,4 +60,4 @@
                   parent="account_menu_analytic_accounting" action="analytic_account_analytic_tag_action"
                   groups="base.group_no_one"/>
     </data>
-</hexya>
+</doxa>

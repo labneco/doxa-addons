@@ -1,4 +1,4 @@
-hexya.define('account.move_line_quickadd', function (require) {
+doxa.define('account.move_line_quickadd', function (require) {
 "use strict";
 
 var core = require('web.core');

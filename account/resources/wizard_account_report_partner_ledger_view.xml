@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
         <view id="account_account_report_partner_ledger_view" model="AccountReportPartnerLedger"
               inherit_id="account_account_common_report_view">
@@ -20,4 +20,4 @@
                   groups="account.group_account_manager,account.group_account_user"/>
 
     </data>
-</hexya>
+</doxa>

@@ -3,7 +3,7 @@
 
 package account
 
-import "github.com/hexya-erp/hexya/pool/h"
+import "github.com/labneco/doxa/pool/h"
 
 func init() {
 	h.ReportAccountReportOverdue().DeclareTransientModel()

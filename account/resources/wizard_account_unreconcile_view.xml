@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_account_unreconcile_view" model="AccountUnreconcile">
@@ -17,4 +17,4 @@
                 model="AccountUnreconcile" view_mode="form" view_id="account_account_unreconcile_view"/>
 
     </data>
-</hexya>
+</doxa>

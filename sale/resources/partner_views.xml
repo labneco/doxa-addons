@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <action id="sale_act_res_partner_2_sale_order" type="ir.actions.act_window" name="Quotations and Sales" model="SaleOrder" view_mode="tree,form,graph">
@@ -43,4 +43,4 @@
         </view>
 
     </data>
-</hexya>
+</doxa>

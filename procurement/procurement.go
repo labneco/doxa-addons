@@ -4,13 +4,13 @@
 package procurement
 
 import (
-	"github.com/hexya-erp/hexya-addons/decimalPrecision"
-	"github.com/hexya-erp/hexya/hexya/actions"
-	"github.com/hexya-erp/hexya/hexya/models"
-	"github.com/hexya-erp/hexya/hexya/models/types"
-	"github.com/hexya-erp/hexya/hexya/models/types/dates"
-	"github.com/hexya-erp/hexya/pool/h"
-	"github.com/hexya-erp/hexya/pool/q"
+	"github.com/labneco/doxa-addons/decimalPrecision"
+	"github.com/labneco/doxa/doxa/actions"
+	"github.com/labneco/doxa/doxa/models"
+	"github.com/labneco/doxa/doxa/models/types"
+	"github.com/labneco/doxa/doxa/models/types/dates"
+	"github.com/labneco/doxa/pool/h"
+	"github.com/labneco/doxa/pool/q"
 )
 
 var (
@@ -69,7 +69,7 @@ func init() {
 	h.ProcurementOrder().AddFields(map[string]models.FieldDefinition{
 		"Name": models.TextField{String: "Description", Required: true},
 		"Origin": models.CharField{String: "Source Document",
-			Help: "Reference of the document that created this Procurement. This is automatically completed by Hexya."},
+			Help: "Reference of the document that created this Procurement. This is automatically completed by Doxa."},
 		"Company": models.Many2OneField{RelationModel: h.Company(),
 			Default: func(env models.Environment) interface{} {
 				return h.Company().NewSet(env).CompanyDefaultGet()

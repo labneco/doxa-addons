@@ -1,4 +1,4 @@
-hexya.define('journal_dashboard', function (require) {
+doxa.define('journal_dashboard', function (require) {
 'use strict';
 
 var kanban_widgets = require('web_kanban.widgets');

@@ -1,4 +1,4 @@
-hexya.define('sale_teams.update_kanban', function (require) {
+doxa.define('sale_teams.update_kanban', function (require) {
 "use strict";
 
 var KanbanView = require('web_kanban.KanbanView');

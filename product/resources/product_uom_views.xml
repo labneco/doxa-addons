@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="product_product_uom_tree_view" model="ProductUom">
@@ -77,4 +77,4 @@
         </action>
 
     </data>
-</hexya>
+</doxa>

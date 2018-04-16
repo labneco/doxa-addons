@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
         <!--<view id="product_inherit_view_general_configuration" model="BaseConfigSettings">
             <xpath expr="//group[@name=&apos;company_share_resources&apos;]" position="inside">
@@ -6,4 +6,4 @@
             </xpath>
         </view>-->
     </data>
-</hexya>
+</doxa>

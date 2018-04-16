@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
       <!--  <view id="sale_view_account_config" model="AccountConfigSettings">
             <separator name="analytic_account" position="attributes">
@@ -15,4 +15,4 @@
             </xpath>
         </view>-->
     </data>
-</hexya>
+</doxa>

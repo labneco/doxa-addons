@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_view_account_move_reversal" model="AccountMoveReversal">
@@ -18,4 +18,4 @@
                 model="AccountMoveReversal" view_mode="tree,form" view_id="account_view_account_move_reversal"/>
 
     </data>
-</hexya>
+</doxa>

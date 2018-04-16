@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view inherit_id="sale_teams_crm_team_view_form">
@@ -107,4 +107,4 @@
         <!--</view>-->
 
     </data>
-</hexya>
+</doxa>

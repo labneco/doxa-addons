@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="product_view_product_price_list" model="ProductPriceListWizard">
@@ -21,4 +21,4 @@
         <action id="product_action_product_price_list" type="ir.actions.act_window" name="Price List"
                 model="ProductPriceListWizard" src_model="product.product" view_mode="form" target="new"/>
     </data>
-</hexya>
+</doxa>

@@ -4,8 +4,8 @@
 package product
 
 import (
-	"github.com/hexya-erp/hexya-addons/decimalPrecision"
-	"github.com/hexya-erp/hexya/hexya/tools/nbutils"
+	"github.com/labneco/doxa-addons/decimalPrecision"
+	"github.com/labneco/doxa/doxa/tools/nbutils"
 )
 
 func init() {

@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="sale_report_configuration_form_view" model="SaleLayoutCategory">
@@ -39,4 +39,4 @@
                   groups="sale.group_sale_layout"/>
 
     </data>
-</hexya>
+</doxa>

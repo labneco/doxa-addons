@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_view_account_position_form" model="AccountFiscalPosition">
@@ -176,4 +176,4 @@
                   parent="account_account_account_menu" action="account_action_account_fiscal_position_form"/>
 
     </data>
-</hexya>
+</doxa>

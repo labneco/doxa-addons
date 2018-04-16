@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
        <!-- <view id="sale_teams_view_sale_config_settings" model="SaleConfigSettings">
             <form string="Configure Sales" class="oe_form_configuration" name="sale_config_form">
@@ -11,4 +11,4 @@
         </view>
         <action id="sale_teams_action_sale_config" type="ir.actions.act_window" name="Configure Sales" model="SaleConfigSettings" view_id="sale_teams_view_sale_config_settings" view_mode="form"/>
 -->    </data>
-</hexya>
+</doxa>

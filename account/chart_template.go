@@ -4,13 +4,13 @@
 package account
 
 import (
-	"github.com/hexya-erp/hexya-base/web/webdata"
-	"github.com/hexya-erp/hexya/hexya/actions"
-	"github.com/hexya-erp/hexya/hexya/models"
-	"github.com/hexya-erp/hexya/hexya/models/types"
-	"github.com/hexya-erp/hexya/hexya/tools/nbutils"
-	"github.com/hexya-erp/hexya/pool/h"
-	"github.com/hexya-erp/hexya/pool/q"
+	"github.com/labneco/doxa-ui/web/webdata"
+	"github.com/labneco/doxa/doxa/actions"
+	"github.com/labneco/doxa/doxa/models"
+	"github.com/labneco/doxa/doxa/models/types"
+	"github.com/labneco/doxa/doxa/tools/nbutils"
+	"github.com/labneco/doxa/pool/h"
+	"github.com/labneco/doxa/pool/q"
 )
 
 func init() {
@@ -95,7 +95,7 @@ defined on this template is complete`},
 		"TransferAccount": models.Many2OneField{RelationModel: h.AccountAccountTemplate(),
 			Required: true, Filter: q.AccountAccountTemplate().Reconcile().Equals(true).
 					And().UserTypeFilteredOn(
-				q.AccountAccountType().HexyaExternalID().Equals("account_data_account_type_current_assets")),
+				q.AccountAccountType().DoxaExternalID().Equals("account_data_account_type_current_assets")),
 			Help: "Intermediary account used when moving money from a liquidity account to another"},
 		"IncomeCurrencyExchangeAccount": models.Many2OneField{String: "Gain Exchange Rate Account",
 			RelationModel: h.AccountAccountTemplate()},
@@ -767,7 +767,7 @@ the same analytic account as the invoice line (if any)`},
 		"TransferAccount": models.Many2OneField{RelationModel: h.AccountAccountTemplate(),
 			Required: true, Filter: q.AccountAccountTemplate().Reconcile().Equals(true).
 					And().UserTypeFilteredOn(
-				q.AccountAccountType().HexyaExternalID().Equals("account_data_account_type_current_assets")),
+				q.AccountAccountType().DoxaExternalID().Equals("account_data_account_type_current_assets")),
 			Help: "Intermediary account used when moving money from a liquidity account to another"},
 		"PurchaseTaxRate": models.FloatField{String: "Purchase Tax(%)"},
 		"CompleteTaxSet": models.BooleanField{String: "Complete Set of Taxes",

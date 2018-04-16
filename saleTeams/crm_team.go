@@ -4,9 +4,9 @@
 package saleTeams
 
 import (
-	"github.com/hexya-erp/hexya/hexya/models"
-	"github.com/hexya-erp/hexya/pool/h"
-	"github.com/hexya-erp/hexya/pool/q"
+	"github.com/labneco/doxa/doxa/models"
+	"github.com/labneco/doxa/pool/h"
+	"github.com/labneco/doxa/pool/q"
 )
 
 func init() {
@@ -36,7 +36,7 @@ func init() {
 			}
 
 			return h.CRMTeam().Search(rs.Env(),
-				q.CRMTeam().HexyaExternalID().Equals("sale_teamss_team_sales_department"))
+				q.CRMTeam().DoxaExternalID().Equals("sale_teamss_team_sales_department"))
 		})
 
 	h.CRMTeam().AddFields(map[string]models.FieldDefinition{
@@ -51,7 +51,7 @@ func init() {
 		"Members": models.One2ManyField{String: "Team Members", RelationModel: h.User(), ReverseFK: "SaleTeam",
 			JSON: "member_ids"},
 		"ReplyTo": models.CharField{String: "Reply-To",
-			Help: "The email address put in the 'Reply-To' of all emails sent by Hexya about cases in this sales team"},
+			Help: "The email address put in the 'Reply-To' of all emails sent by Doxa about cases in this sales team"},
 		"Color": models.IntegerField{String: "Color Index", Help: "The color of the team"},
 	})
 

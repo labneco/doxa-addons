@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="procurement_procurement_tree_view" model="ProcurementOrder">
@@ -281,4 +281,4 @@ if records:
         -->
 
     </data>
-</hexya>
+</doxa>

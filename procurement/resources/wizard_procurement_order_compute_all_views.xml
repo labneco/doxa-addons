@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="procurement_view_compute_schedulers_wizard" model="ProcurementOrderComputeAll">
@@ -16,4 +16,4 @@
         <action id="procurement_action_compute_schedulers" type="ir.actions.act_window" name="Run Schedulers"
                 model="ProcurementOrderComputeAll" view_mode="form"/>
     </data>
-</hexya>
+</doxa>

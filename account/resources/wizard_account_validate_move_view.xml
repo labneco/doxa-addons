@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_validate_account_move_view" model="ValidateAccountMove">
@@ -18,4 +18,4 @@
         </action>
 
     </data>
-</hexya>
+</doxa>

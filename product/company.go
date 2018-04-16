@@ -4,9 +4,9 @@
 package product
 
 import (
-	"github.com/hexya-erp/hexya/hexya/models"
-	"github.com/hexya-erp/hexya/pool/h"
-	"github.com/hexya-erp/hexya/pool/q"
+	"github.com/labneco/doxa/doxa/models"
+	"github.com/labneco/doxa/pool/h"
+	"github.com/labneco/doxa/pool/q"
 )
 
 func init() {
@@ -37,7 +37,7 @@ func init() {
 			// that pricelist is not used by another company. Otherwise, we create a new pricelist for the
 			// given currency.
 			currency := vals.Currency
-			mainPricelist := h.ProductPricelist().Search(rs.Env(), q.ProductPricelist().HexyaExternalID().Equals("product_list0"))
+			mainPricelist := h.ProductPricelist().Search(rs.Env(), q.ProductPricelist().DoxaExternalID().Equals("product_list0"))
 			if currency.IsEmpty() || mainPricelist.IsEmpty() {
 				return rs.Super().Write(vals, fieldsToUnset...)
 			}

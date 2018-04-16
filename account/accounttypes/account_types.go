@@ -3,7 +3,7 @@
 
 package accounttypes
 
-import "github.com/hexya-erp/hexya/hexya/models/types/dates"
+import "github.com/labneco/doxa/doxa/models/types/dates"
 
 // A PaymentDueDates gives the amount due of an invoice at the given date
 type PaymentDueDates struct {

@@ -1,4 +1,4 @@
-hexya.define('web_kanban.quick_create', function (require) {
+doxa.define('web_kanban.quick_create', function (require) {
 "use strict";
 
 var Widget = require('web.Widget');

@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_account_invoice_confirm_view" model="AccountInvoiceConfirm">
@@ -34,4 +34,4 @@
                 src_model="AccountInvoice" view_mode="form" target="new"/>
 
     </data>
-</hexya>
+</doxa>

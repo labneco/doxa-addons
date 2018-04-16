@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_view_account_move_line_reconcile_full" model="AccountMoveLineReconcile">
@@ -50,4 +50,4 @@
         </view>
 
     </data>
-</hexya>
+</doxa>

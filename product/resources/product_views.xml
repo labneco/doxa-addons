@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="product_product_template_form_view" model="ProductTemplate">
@@ -164,7 +164,7 @@
                     <div class="oe_title">
                         <label class="oe_edit_only" for="name" string="Product Name"/>
                         <h1>
-                            <field name="name" placeholder="e.g. Hexya Service Susbcription"/>
+                            <field name="name" placeholder="e.g. Doxa Service Susbcription"/>
                         </h1>
                     </div>
                     <group>
@@ -490,4 +490,4 @@
                 model="ProductSupplierinfo" view_mode="tree,form"/>
 
     </data>
-</hexya>
+</doxa>

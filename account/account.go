@@ -11,14 +11,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hexya-erp/hexya-addons/account/accounttypes"
-	"github.com/hexya-erp/hexya/hexya/actions"
-	"github.com/hexya-erp/hexya/hexya/models"
-	"github.com/hexya-erp/hexya/hexya/models/operator"
-	"github.com/hexya-erp/hexya/hexya/models/types"
-	"github.com/hexya-erp/hexya/hexya/tools/nbutils"
-	"github.com/hexya-erp/hexya/pool/h"
-	"github.com/hexya-erp/hexya/pool/q"
+	"github.com/labneco/doxa-addons/account/accounttypes"
+	"github.com/labneco/doxa/doxa/actions"
+	"github.com/labneco/doxa/doxa/models"
+	"github.com/labneco/doxa/doxa/models/operator"
+	"github.com/labneco/doxa/doxa/models/types"
+	"github.com/labneco/doxa/doxa/tools/nbutils"
+	"github.com/labneco/doxa/pool/h"
+	"github.com/labneco/doxa/pool/q"
 )
 
 func init() {
@@ -318,10 +318,10 @@ same sequence for invoices and refunds made from this journal`,
 			Filter: q.AccountPaymentMethod().PaymentType().Equals("inbound"),
 			Default: func(env models.Environment) interface{} {
 				return h.AccountPaymentMethod().Search(env,
-					q.AccountPaymentMethod().HexyaExternalID().Equals("account_account_payment_method_manual_in"))
+					q.AccountPaymentMethod().DoxaExternalID().Equals("account_account_payment_method_manual_in"))
 			},
 			Help: `Means of payment for collecting money.
-Hexya modules offer various payments handling facilities,
+Doxa modules offer various payments handling facilities,
 but you can always use the 'Manual' payment method in order
 to manage payments outside of the software.`},
 		"OutboundPaymentMethods": models.Many2ManyField{String: "Payment Methods",
@@ -329,9 +329,9 @@ to manage payments outside of the software.`},
 			Filter: q.AccountPaymentMethod().PaymentType().Equals("outbound"),
 			Default: func(env models.Environment) interface{} {
 				return h.AccountPaymentMethod().Search(env,
-					q.AccountPaymentMethod().HexyaExternalID().Equals("account_account_payment_method_manual_out"))
+					q.AccountPaymentMethod().DoxaExternalID().Equals("account_account_payment_method_manual_out"))
 			}, Help: `Means of payment for sending money.
-Hexya modules offer various payments handling facilities
+Doxa modules offer various payments handling facilities
 but you can always use the 'Manual' payment method in order
 to manage payments outside of the software.`},
 		"AtLeastOneInbound": models.BooleanField{Compute: h.AccountJournal().Methods().MethodsCompute(),
@@ -549,7 +549,7 @@ to manage payments outside of the software.`},
 				panic(rs.T("Cannot generate an unused account code."))
 			}
 			liquidityType := h.AccountAccountType().Search(rs.Env(),
-				q.AccountAccountType().HexyaExternalID().Equals("account.data_account_type_liquidity"))
+				q.AccountAccountType().DoxaExternalID().Equals("account.data_account_type_liquidity"))
 
 			return &h.AccountAccountData{
 				Name:     name,

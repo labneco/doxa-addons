@@ -1,4 +1,4 @@
-hexya.define('account.payment', function (require) {
+doxa.define('account.payment', function (require) {
 "use strict";
 
 var core = require('web.core');

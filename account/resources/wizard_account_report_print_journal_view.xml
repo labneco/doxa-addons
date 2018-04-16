@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_account_report_print_journal_view" model="AccountPrintJournal"
@@ -23,4 +23,4 @@
                   groups="account.group_account_manager,account.group_account_user"/>
 
     </data>
-</hexya>
+</doxa>

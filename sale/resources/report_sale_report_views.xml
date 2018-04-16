@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="sale_view_order_product_pivot" model="SaleReport">
@@ -58,4 +58,4 @@
                   action="sale_action_order_report_all"/>
 
     </data>
-</hexya>
+</doxa>

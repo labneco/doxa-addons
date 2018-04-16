@@ -1,4 +1,4 @@
-hexya.define('sale_teams.dashboard', function (require) {
+doxa.define('sale_teams.dashboard', function (require) {
 "use strict";
 
 var core = require('web.core');

@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="product_product_template_tree_view" model="ProductTemplate">
@@ -112,4 +112,4 @@
         </action>
 
     </data>
-</hexya>
+</doxa>

@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <action id="account_tax_adjustments_form" type="ir.actions.act_window" name="Make Manual Tax Adjustments"
@@ -8,4 +8,4 @@
                   action="account_tax_adjustments_form"/>
 
     </data>
-</hexya>
+</doxa>

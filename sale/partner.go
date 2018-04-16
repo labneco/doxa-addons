@@ -4,10 +4,10 @@
 package sale
 
 import (
-	"github.com/hexya-erp/hexya-base/base"
-	"github.com/hexya-erp/hexya/hexya/models"
-	"github.com/hexya-erp/hexya/pool/h"
-	"github.com/hexya-erp/hexya/pool/q"
+	"github.com/labneco/doxa-ui/base"
+	"github.com/labneco/doxa/doxa/models"
+	"github.com/labneco/doxa/pool/h"
+	"github.com/labneco/doxa/pool/q"
 )
 
 func init() {

@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view id="account_tax_adjustments_wizard" model="TaxAdjustmentsWizard">
@@ -32,4 +32,4 @@
         </view>
 
     </data>
-</hexya>
+</doxa>

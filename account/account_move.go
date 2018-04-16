@@ -4,15 +4,15 @@
 package account
 
 import (
-	"github.com/hexya-erp/hexya-addons/account/accounttypes"
-	"github.com/hexya-erp/hexya-addons/decimalPrecision"
-	"github.com/hexya-erp/hexya-base/web/webdata"
-	"github.com/hexya-erp/hexya/hexya/actions"
-	"github.com/hexya-erp/hexya/hexya/models"
-	"github.com/hexya-erp/hexya/hexya/models/types"
-	"github.com/hexya-erp/hexya/hexya/models/types/dates"
-	"github.com/hexya-erp/hexya/pool/h"
-	"github.com/hexya-erp/hexya/pool/q"
+	"github.com/labneco/doxa-addons/account/accounttypes"
+	"github.com/labneco/doxa-addons/decimalPrecision"
+	"github.com/labneco/doxa-ui/web/webdata"
+	"github.com/labneco/doxa/doxa/actions"
+	"github.com/labneco/doxa/doxa/models"
+	"github.com/labneco/doxa/doxa/models/types"
+	"github.com/labneco/doxa/doxa/models/types/dates"
+	"github.com/labneco/doxa/pool/h"
+	"github.com/labneco/doxa/pool/q"
 )
 
 func init() {
@@ -1405,7 +1405,7 @@ but with the module account_tax_cash_basis, some will become exigible only when 
 					# Create tax lines
 					tax_lines_vals = []
 					if context.get('apply_taxes') and vals.get('tax_ids'):
-						# Get ids from triplets : https://www.hexya.io/documentation/master/reference/orm.html#hexyaerp.models.Model.write
+						# Get ids from triplets : https://www.doxa.io/documentation/master/reference/orm.html#doxaerp.models.Model.write
 						tax_ids = [tax['id'] for tax in self.resolve_2many_commands('tax_ids', vals['tax_ids']) if tax.get('id')]
 						# Since create() receives ids instead of recordset, let's just use the old-api bridge
 						taxes = self.env['account.tax'].browse(tax_ids)

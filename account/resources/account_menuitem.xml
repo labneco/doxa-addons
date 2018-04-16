@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
         <menuitem id="account_menu_finance" name="Invoicing" sequence="40"
                   groups="group_account_user,group_account_manager,group_account_invoice"/>
@@ -30,4 +30,4 @@
         <menuitem id="account_menu_account_reports" name="Financial Reports" parent="account_menu_finance_configuration"
                   groups="group_account_user"/>
     </data>
-</hexya>
+</doxa>

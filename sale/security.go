@@ -4,10 +4,10 @@
 package sale
 
 import (
-	"github.com/hexya-erp/hexya-addons/account"
-	"github.com/hexya-erp/hexya-addons/saleTeams"
-	"github.com/hexya-erp/hexya/hexya/models/security"
-	"github.com/hexya-erp/hexya/pool/h"
+	"github.com/labneco/doxa-addons/account"
+	"github.com/labneco/doxa-addons/saleTeams"
+	"github.com/labneco/doxa/doxa/models/security"
+	"github.com/labneco/doxa/pool/h"
 )
 
 var (

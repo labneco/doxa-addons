@@ -1,4 +1,4 @@
-<hexya>
+<doxa>
     <data>
 
         <view inherit_id="account_account_common_report_view"
@@ -49,4 +49,4 @@
         <menuitem id="account_menu_account_report" name="Financial Report" sequence="100"
                   parent="account_menu_finance_legal_statement" action="account_action_account_report"/>
     </data>
-</hexya>
+</doxa>
